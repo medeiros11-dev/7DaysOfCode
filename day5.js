@@ -11,7 +11,7 @@ var categorias = [' frutas', ' laticínios', ' doces', ' congelados', ' material
 var adicionarComida = [];
 while (quer != "não"){
     let quer = prompt ("Você deseja adicionar um item a sua lista de compras ? Responda com 'sim' ou 'não'");
-    while(quer != "sim" && quer!="não") {
+    while(quer!= "sim" && quer!="não") {
         alert(`Resposta não reconhecida ! Por favor responda 'sim' ou 'não'`);
         quer = prompt ("Você deseja adicionar um item a sua lista de compras ? Responda com 'sim' ou 'não'");
     }
